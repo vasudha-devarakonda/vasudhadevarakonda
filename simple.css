@@ -36,7 +36,6 @@ h1, h2, h3, p, figure { margin-top: 0; }
 h1 { margin-bottom: 8px; font-size: 38px; font-weight: 600; line-height: 1.2; }
 .profile-photo-frame { width: 120px; height: 154px; flex: none; overflow: hidden; border: 1px solid var(--line); }
 .profile-photo { width: 100%; height: 100%; display: block; object-fit: cover; transform: scale(1.45); transform-origin: 50% 68%; }
-.intro-focus { margin-bottom: 12px; color: var(--accent); font-size: 19px; font-weight: 500; }
 .intro-description { max-width: 680px; margin-bottom: 18px; color: var(--muted); }
 .contact-line { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0; font-size: 13px; }
 .contact-line span { color: var(--muted); }
@@ -78,10 +77,9 @@ h1 { margin-bottom: 8px; font-size: 38px; font-weight: 600; line-height: 1.2; }
   .header-inner { align-items: flex-start; flex-direction: column; gap: 5px; padding-block: 12px; }
   .main-nav { flex-wrap: wrap; gap: 8px 18px; }
   .intro { padding-block: 38px 30px; }
-  .intro-top { gap: 14px; }
+  .intro-top { align-items: flex-start; flex-direction: column; gap: 14px; }
   h1 { font-size: 31px; }
   .profile-photo-frame { width: 92px; height: 118px; }
-  .intro-focus { font-size: 17px; }
   .section { padding-block: 27px 30px; }
   .publication-row, .timeline-row { grid-template-columns: 1fr; gap: 5px; }
   .education-entry { grid-template-columns: 1fr; gap: 3px; }
