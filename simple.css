@@ -34,11 +34,15 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .eyebrow { margin-bottom: 8px; color: var(--muted); font-size: 13px; }
 h1, h2, h3, p, figure { margin-top: 0; }
 h1 { margin-bottom: 8px; font-size: 38px; font-weight: 600; line-height: 1.2; }
-.profile-photo-frame { width: 120px; height: 154px; flex: none; overflow: hidden; border: 1px solid var(--line); }
+.profile-photo-frame { width: 170px; height: 230px; flex: none; overflow: hidden; border: 1px solid var(--line); }
 .profile-photo { width: 100%; height: 100%; display: block; object-fit: cover; transform: scale(1.45); transform-origin: 50% 68%; }
-.intro-description { max-width: 680px; margin-bottom: 18px; color: var(--muted); }
-.contact-line { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0; font-size: 13px; }
+.about-label { margin-bottom: 8px; color: var(--accent); font-size: 18px; font-weight: 600; }
+.intro-description { max-width: 680px; margin-bottom: 18px; color: var(--ink); font-size: 16px; line-height: 1.6; }
+.contact-line { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 14px; margin: 0; font-size: 13px; }
 .contact-line span { color: var(--muted); }
+.icon-link { width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center; color: var(--accent); }
+.icon-link svg { width: 20px; height: 20px; display: block; }
+.icon-link:hover { color: var(--ink); }
 
 .section { padding-block: 34px 38px; border-top: 1px solid var(--line); }
 .section h2 { margin-bottom: 18px; font-size: 22px; font-weight: 600; line-height: 1.3; }
@@ -67,8 +71,9 @@ h1 { margin-bottom: 8px; font-size: 38px; font-weight: 600; line-height: 1.2; }
 .contact-section { border-top: 1px solid var(--line); background: var(--soft); }
 .contact-inner { min-height: 132px; display: flex; align-items: center; justify-content: space-between; gap: 30px; padding-block: 24px; }
 .contact-copy h2 { margin-bottom: 4px; font-size: 20px; }
-.contact-email { font-size: 14px; }
-.contact-links { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 13px; }
+.contact-email { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; }
+.contact-email svg { width: 18px; height: 18px; flex: none; }
+.contact-links { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 16px; }
 .footer-bottom { display: flex; justify-content: space-between; gap: 20px; padding-block: 13px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
 .footer-bottom a { text-decoration: none; }
 
@@ -79,7 +84,7 @@ h1 { margin-bottom: 8px; font-size: 38px; font-weight: 600; line-height: 1.2; }
   .intro { padding-block: 38px 30px; }
   .intro-top { align-items: flex-start; flex-direction: column; gap: 14px; }
   h1 { font-size: 31px; }
-  .profile-photo-frame { width: 92px; height: 118px; }
+  .profile-photo-frame { width: 140px; height: 180px; }
   .section { padding-block: 27px 30px; }
   .publication-row, .timeline-row { grid-template-columns: 1fr; gap: 5px; }
   .education-entry { grid-template-columns: 1fr; gap: 3px; }
