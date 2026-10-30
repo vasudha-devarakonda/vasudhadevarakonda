@@ -13,4 +13,4 @@ Open `index.html` in a browser.
 3. Under **Build and deployment**, choose **Deploy from a branch**.
 4. Select the `main` branch and `/ (root)` folder, then save.
 
-GitHub Pages will provide the published site URL in the Pages settings. The site includes a downloadable `references.bib` file for the listed publications.
+GitHub Pages will provide the published site URL in the Pages settings.
