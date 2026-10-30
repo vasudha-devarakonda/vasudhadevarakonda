@@ -42,6 +42,7 @@ h1 { margin-bottom: 8px; font-size: 38px; font-weight: 600; line-height: 1.2; }
 .icon-link { width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center; color: var(--accent); }
 .icon-link svg { width: 20px; height: 20px; display: block; }
 .icon-link:hover { color: var(--ink); }
+.cv-download { text-decoration: none; }
 
 .section { padding-block: 34px 38px; border-top: 1px solid var(--line); }
 .section h2 { margin-bottom: 18px; font-size: 22px; font-weight: 600; line-height: 1.3; }
